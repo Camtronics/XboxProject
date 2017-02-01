@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link href="css/reset.css" rel="stylesheet">    
+	<link href="css/titanfall.css" rel="stylesheet">
+</head>  
+<body>
+<header>
+    <div id="logo"></div>
+    <div id="slogan">
+    <h1><span></span>Fall Into a World of Adventure</h1>
+    </div>
+</header>
+<main>
+    <div id="side1"></div>
+    <div id="xbox"></div>
+    <div id="thumb">
+        <img id="img1" src="images/halo_5_console.jpg" onclick="largeImg(0)">
+        <img id="img2" src="images/titanfallstatue.jpg" onclick="largeImg(1)">
+        <img id="img3" src="images/titanfallcon.png" onclick="largeImg(2)">
+        <img id="img4" src="images/Titanfall-Controller.png" onclick="largeImg(3)">
+    </div>
+    <div id="side2"></div>
+    <div id="side3"></div>
+</main>
+    <nav>
+        <div id="mainButton">
+        <div id="hoverButton"><h2>Limited Editions</h2></div>
+        </div>
+        <div>
+        <div id="elite" class="navbox" onclick="change(this.id);"><h3>Xbox Elite</h3></div>
+        <div id="halo5" class="navbox" onclick="change(this.id);"><h3>Halo 5</h3></div>
+        <div id="titanfall" class="navbox" onclick="change(this.id);"><h3>TitanFall</h3></div>
+        <div id="forza5" class="navbox" onclick="change(this.id);"><h3>Forza 6</h3></div>
+        </div>
+        
+    </nav>
+        <script src="scripts/main.js"></script>
+</body>
+</html>

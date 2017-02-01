@@ -1,0 +1,186 @@
+body
+{
+    background: url(../images/haloback.jpeg);
+    background-size: cover;
+}
+main
+{
+    width: 90%;
+    height: 700px;
+    margin: auto;
+}
+
+header
+{
+    height: 100px;
+    width: 100%;
+}
+
+#logo
+{
+    height: 100px;
+    width: 200px;
+    background: url(../images/xboxonelogo.png);
+    float: left;
+    background-size: contain
+}
+
+#slogan
+{
+    height: calc(100% - 10px);
+    min-width: 775px;
+    float: left;
+    color: #810000;
+    font-family: Copperplate Gothic Light, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 4em;
+    padding-top: 10px;
+    margin-left: 100px;
+}
+
+#xbox
+{
+    width: 560px;
+    height: 315px;
+    background: url(../images/halo5concon.jpg);
+    background-position: center;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 27%;
+    z-index: 13;
+    
+}
+h1 
+{
+    position: relative;
+}
+
+
+#thumb
+{
+    min-width: 40%;
+    height: 20%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 24%;
+    z-index: 15;
+}
+    
+    #thumb img
+    {
+        width: 120px;
+        height: 120px;
+        margin-right: 47px;
+        z-index: 15;
+        cursor: pointer;
+    }
+
+#side1
+{
+    height: 80%;
+    width: 20%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 5%;
+    background: url(../images/chief.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 3;
+
+}
+
+#side2
+{
+    height: 80%;
+    width: 20%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 65%;
+    background: url(../images/locke.png);
+    background-size: cover;
+    z-index: 3;
+}
+
+#side3
+{
+    height: 28%;
+    width: 60%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 15%;
+    background: url(../images/haloShip.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav
+{
+    height: 100px;
+    width: 10%;
+    position: absolute;
+    margin-top: -700px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: #242424;
+    overflow: hidden;
+}
+
+    nav:hover
+    {
+        height: 500px;
+    }
+
+    h2
+    {
+        box-shadow:     0 1px 2px #000, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), 
+            inset 0 1px 1px rgba(255,255,255,0.8);
+    }
+    h3
+    {
+        box-shadow:     0 1px 2px #000, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), 
+            inset 0 1px 1px rgba(255,255,255,0.8);
+        cursor: pointer;
+    }
+
+
+
+    #hoverButton
+    {
+        height: 65px;
+        width:  125px;
+        background:  url(../images/rivPlate.jpg);
+        background-size: contain;
+        margin-left: 5px;
+        border-radius: 5px;
+        border: 1px solid #313131;
+        padding: 10px;
+        box-shadow:     0 1px 2px #000, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), 
+            inset 0 1px 1px rgba(255,255,255,0.8);
+        margin-bottom: 25px;
+            
+            
+    }
+
+    .navbox
+    {
+        font-size: .8em;
+        max-height: 40px;
+        width:  118px;
+        background:  url(../images/rivPlateSmall.png);
+        background-size: contain;
+        margin-left: 5px;
+        border-radius: 5px;
+        border: 1px solid #313131;
+        padding: 10px;
+        box-shadow:     0 1px 2px #000, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), 
+            inset 0 1px 1px rgba(255,255,255,0.8);
+        margin-bottom: 10px;
+        margin-left: 10px;
+
+    }
+

@@ -1,0 +1,310 @@
+body
+{
+    background: #000;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+        
+}
+
+#video
+{
+    width: 560px;
+    height: 315px; 
+}
+
+
+
+#container
+{
+    background: url(../images/eliteBackground.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    z-index: 17;
+}
+
+main
+{
+    width: 90%;
+    height: 800px;
+    margin: auto;
+}
+
+header
+{
+    height: 100px;
+    width: 100%;
+}
+
+#logo
+{
+    height: 100px;
+    width: 200px;
+    background: url(../images/xboxonelogo.png);
+    float: left;
+    background-size: contain
+}
+
+#slogan
+{
+    height: calc(100% - 10px);
+    width: 775px;
+    float: left;
+    color: #fff;
+    font-family: Copperplate Gothic Light, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 4em;
+    padding-top: 10px;
+    margin-left: 100px;
+}
+
+    #slogan img
+    {
+       width: 100%;
+    }
+
+#centerContain
+{
+    width: 700px;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 150px;
+    z-index: 13;
+}
+
+
+#xbox
+{
+    width: 560px;
+    height: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 13;
+    
+}
+h1 
+{
+    position: relative;
+}
+        h1 span
+        {
+          background: url(../images/gradient-dark.png);
+          background-repeat: repeat;
+          position: absolute;
+          display: block;
+          width: 100%;
+          height: 100%;        
+        }
+
+#thumb
+{
+    min-width: 40%;
+    height: 120px;
+    margin: 0 auto; 
+    z-index: 13;
+}
+    
+    #thumb img
+    {
+        width: 120px;
+        height: 120px;
+        margin-right: auto;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+
+
+#side1
+{
+    height: 700px;
+    width: 300px;
+    z-index: 5;
+    position: absolute;
+    left: 175px;
+    top: 150px;
+    visibility: hidden;
+    
+}
+    #side1 img
+    {
+        width: 100%;    
+    }
+
+#side2
+{
+    height: 700px;
+    width: 300px;
+    z-index: 5;
+    position: absolute;
+    right: 125px;
+    top: 150px;
+    visibility: hidden;
+}
+    #side2 img
+    {
+        width: 100%;    
+    }
+
+#side3
+{
+    width: 100%;
+    visibility: hidden;
+
+}
+#side3 img
+    {
+        width: 100%;    
+    }
+
+nav
+{
+    height: 80px;
+    width: 10%;
+    position: absolute;
+    margin-top: -850px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: #242424;
+    overflow: hidden;
+    z-index: 25;
+}
+
+    nav:hover
+    {
+        height: 500px;
+    }
+
+    h2
+    {
+        box-shadow:     0 1px 2px #000, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), 
+            inset 0 1px 1px rgba(255,255,255,0.8);
+    }
+    h3
+    {
+        box-shadow:     0 1px 2px #000, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), 
+            inset 0 1px 1px rgba(255,255,255,0.8);
+        cursor: pointer;
+    }
+
+
+
+    #hoverButton
+    {
+        font-size: 0.8em;
+        height: 48px;
+        width:  125px;
+        background:  url(../images/rivPlateSmall.png);
+        background-size: contain;
+        margin-left: 5px;
+        border-radius: 5px;
+        border: 1px solid #313131;
+        padding: 10px;
+        box-shadow:     0 1px 2px #000, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), 
+            inset 0 1px 1px rgba(255,255,255,0.8);
+        margin-bottom: 25px;
+    }
+
+    .navbox
+    {
+        font-size: .8em;
+        max-height: 40px;
+        width:  118px;
+        background:  url(../images/rivPlate.png);
+        background-size: contain;
+        margin-left: 5px;
+        border-radius: 5px;
+        border: 1px solid #313131;
+        padding: 10px;
+        box-shadow: 0 1px 2px #000, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), 
+                    inset 0 1px 1px rgba(255,255,255,0.8);
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+
+#nav2
+{
+    height: 70px;
+    width: 120px;
+    position: absolute;
+    margin-top: -930px;
+    left: 200px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: #242424;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+    #nav2:hover
+    {
+        width: 700px;
+    }
+
+#hoverButton2
+    {
+        font-size: 0.7em;
+        height: 40px;
+        width:  80px;
+        background:  url(../images/rivPlate.png);
+        background-size: contain;
+        margin-left: 5px;
+        border-radius: 5px;
+        border: 1px solid #313131;
+        padding: 10px;
+        margin-bottom: 15px;
+        box-shadow: 0 1px 2px #000, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), 
+                    inset 0 1px 1px rgba(255,255,255,0.8);
+        float: left;
+    }
+
+.navbox2
+    {
+        font-size: .6em;
+        height: 30px;
+        width: 90px;
+        background:  url(../images/rivPlateSmall.png);
+        background-size: cover;
+        border-radius: 5px;
+        border: 1px solid #313131;
+        float: left;
+        margin-left: 10px;
+        padding-top: 10px;
+        margin-top: 5px;
+    }
+
+
+#bigContainer
+{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.57);
+    z-index: 17;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+    .bCVis
+    {
+        visibility: visible;
+    }
+
+    .bCHid
+    {
+        visibility: hidden;
+    }
+
+#bigImg
+{
+    margin-top: 200px;
+    max-width: 60%;
+}

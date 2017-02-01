@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link href="css/reset.css" rel="stylesheet">    
+	<link href="css/site.css" rel="stylesheet">
+    <link href="css/media-queries.css" rel="stylesheet">
+</head>  
+<body>
+<div id="container">
+    <header>
+        <div id="logo"></div>
+        <div id="slogan">
+            <img id="sloganImg" src="images/xboxoneSlogan.png">
+        </div>
+    </header>
+<main>
+        <div id="side1"><img id="side1Img" src=""></div>
+        <div id="centerContain">
+            <div id="xbox"><iframe id='video' src="https://www.youtube.com/embed/EM88V2UoDUY" frameborder="0" allowfullscreen></iframe></div>
+            <div id="thumb">
+                <img id="img0" src="images/eliteBundleThumb.png" onclick="largeImg(0)">
+                <img id="img1" src="images/eliteConThumb.png" onclick="largeImg(1)">
+                <img id="img2" src="images/eliteConBackThumb.png" onclick="largeImg(2)">
+                <img id="img3" src="images/eliteControllerCaseThumb.png" onclick="largeImg(3)">
+            </div>
+            <div id="side3"><img id="side3Img" ></div>
+        </div>
+        <div id="side2"><img id="side2Img" ></div>
+</main>
+</div>
+    
+    <div id="bigContainer" onclick="closeImg();">
+    <img id="bigImg" src="">
+    </div>
+
+    
+    <nav>
+        <div id="hoverButton"><h2>Limited Editions</h2></div>
+        <div id="elite" class="navbox" onclick="change(this.id);"><h3>Xbox Elite</h3></div>
+        <div id="halo5" class="navbox" onclick="change(this.id);"><h3>Halo 5</h3></div>
+        <div id="titanfall" class="navbox" onclick="change(this.id);"><h3>TitanFall</h3></div>
+        <div id="forza6" class="navbox" onclick="change(this.id);"><h3>Forza 6</h3></div>
+    </nav>
+    <div id="nav2">
+        <div id="hoverButton2"><h2>Limited Editions</h2></div>
+        <div id="eliteb" class="navbox2" onclick="change(this.id);"><h3>Xbox Elite</h3></div>
+        <div id="halo5b" class="navbox2" onclick="change(this.id);"><h3>Halo 5</h3></div>
+        <div id="titanfallb" class="navbox2" onclick="change(this.id);"><h3>TitanFall</h3></div>
+        <div id="forza6b" class="navbox2" onclick="change(this.id);"><h3>Forza 6</h3></div>
+    </div>
+    
+        <script src="Scripts/jquery-2.1.4.min.js"></script>
+        <script src="scripts/main.js" onload="fadeOut();"></script>
+</body>
+</html>
